@@ -1,0 +1,7 @@
+{"data":
+    {"resultCode":1,
+     "result":
+        {"customer_id":"1","store_id":"0","firstname":"\u5c0f\u5b9d","lastname":"\u97e6\u5c0f\u5b9d","sex":"male","sexuality":"female","birthday":"0000-00-00","email":"wk@cnstorm.com","telephone":"13631591188","mobile":"13631591111","marriage":"\u672a\u5a5a","children":"1","education":"\u535a\u58eb\u53ca\u4ee5\u4e0a","job":"IT\u4e1a\/\u4e92\u8054\u7f51","salary":"15000\u4ee5\u4e0a","hometown":"\u6e56\u5357","live":"\u6df1\u5733","blog":"www.blog.com","scores":"60","money":"522.84","password":"b2673ecd9993abe95e02e38631daf8bed3c93581","salt":"861624a22","cart":"a:2:{s:38:\"39130940421:1627207_90554:20509_28314:\";i:1;s:38:\"38123467736:1627207_28338:20509_28316:\";i:1;}","wishlist":"a:6:{i:0;s:3:\"420\";i:1;s:3:\"359\";i:2;s:3:\"351\";i:3;s:3:\"158\";i:4;s:3:\"358\";i:5;s:3:\"352\";}","newsletter":"0","address_id":"20","customer_group_id":"1","ip":"127.0.0.1","status":"1","approved":"1","token":"","date_added":"2014-05-21 14:38:09","qiandao":"2014-06-28","question_dati":"2014-06-29"
+         }
+    }
+}

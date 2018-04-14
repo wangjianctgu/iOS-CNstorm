@@ -1,0 +1,127 @@
+{"data":
+    {
+        "resultCode":"1",
+        "result":
+        {
+           "awaitSendWayList":
+            [
+               {"yunfei":"1000.48",
+                "isCancel":"0",
+                "wayStatus":"0",
+                "wayNo":"cn81466633",
+                "receiveAddress":"Abu Aisheh Saudi Aramco 593 Marjan Circle Dhahran 31311 Saudi Arabia",
+                "mailCode":"518101",
+                "receiver":"Amy",
+                "telePhone":"0755-81466633",
+                "weight":"152.23",
+                "volume":"452.25",
+                "wayDate":"2014-06-12 12:00:03",
+             
+                "packageList":
+                  [{"goodsList":
+                    [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+                    "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+                    "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+                    "buyColor":"绿色 预售6.19-6.23发",
+                    "buySize":"L 胸围96厘米",
+                    "realPrice":"154.80",
+                    "remark":"不错的衣服",
+                    "buyQuantity":"2"
+                    },
+                    
+                    {"url":"http://item.taobao.com/item.htm?spm=a1z10.4.w5003-7449458875.8.FpMwAz&id=38136308379&scene=taobao_shop",
+                    "goodsImage":"http://img02.taobaocdn.com/imgextra/i2/205262565/T2OPgTXRXXXXXXXXXX_!!205262565.jpg",
+                    "name":"素萝 画中仙 原创设计品牌民族风女装2014新款春夏装刺绣连衣长裙",
+                    "buyColor":"白色",
+                    "buySize":"L 预售6.19-6.23发货",
+                    "realPrice":"280.80",
+                    "remark":"不错的衣服对撒饭否的说",
+                    "buyQuantity":"1"
+                    }]
+                   },
+                   {"goodsList":
+                   [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+                    "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+                    "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+                    "buyColor":"绿色 预售6.19-6.23发",
+                    "buySize":"L 胸围96厘米",
+                    "realPrice":"154.80",
+                    "remark":"不错的衣服",
+                    "buyQuantity":"2"
+                    }]
+                   },
+                   {"goodsList":
+                   [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+                    "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+                    "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+                    "buyColor":"绿色 预售6.19-6.23发",
+                    "buySize":"L 胸围96厘米",
+                    "realPrice":"154.80",
+                    "remark":"不错的衣服",
+                    "buyQuantity":"2"
+                    }]
+                   }]
+               },
+             
+             {"yunfei":"1000.48",
+             "isCancel":"0",
+             "wayStatus":"1",
+             "wayNo":"cn23413412",
+             "receiveAddress":"Abu Aisheh Saudi Aramco 593 Marjan Circle Dhahran 31311 Saudi Arabia",
+             "mailCode":"518101",
+             "receiver":"dada",
+             "telePhone":"0755-81466633",
+             "weight":"152.23",
+             "volume":"452.25",
+             "wayDate":"2014-06-12 12:00:03",
+             
+             "packageList":
+             [{"goodsList":
+              [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+               "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+               "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+               "buyColor":"绿色 预售6.19-6.23发",
+               "buySize":"L 胸围96厘米",
+               "realPrice":"154.80",
+               "remark":"不错的衣服",
+               "buyQuantity":"2"
+               },
+               
+               {"url":"http://item.taobao.com/item.htm?spm=a1z10.4.w5003-7449458875.8.FpMwAz&id=38136308379&scene=taobao_shop",
+               "goodsImage":"http://img02.taobaocdn.com/imgextra/i2/205262565/T2OPgTXRXXXXXXXXXX_!!205262565.jpg",
+               "name":"素萝 画中仙 原创设计品牌民族风女装2014新款春夏装刺绣连衣长裙",
+               "buyColor":"白色",
+               "buySize":"L 预售6.19-6.23发货",
+               "realPrice":"280.80",
+               "remark":"不错的衣服对撒饭否的说",
+               "buyQuantity":"1"
+               }]
+              },
+              {"goodsList":
+              [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+               "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+               "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+               "buyColor":"绿色 预售6.19-6.23发",
+               "buySize":"L 胸围96厘米",
+               "realPrice":"154.80",
+               "remark":"不错的衣服",
+               "buyQuantity":"2"
+               }]
+              },
+              {"goodsList":
+              [{"url":"http://item.taobao.com/item.htm?id=38624911446&ali_refid=a3_430325_1007:1102177382:N:35760067740_merchants_abcdzxyzxx:725e9a001f047e74801a7f6c1df35484&ali_trackid=1_725e9a001f047e74801a7f6c1df35484&spm=a217f.7278525.1997506173-0.3.OFTO2z",
+               "goodsImage":"http://img01.taobaocdn.com/bao/uploaded/i1/T1y647FKRcXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+               "name":"素萝 子书 原创设计品牌民族风女装 2014新款夏装衬衫薄棉上衣",
+               "buyColor":"绿色 预售6.19-6.23发",
+               "buySize":"L 胸围96厘米",
+               "realPrice":"154.80",
+               "remark":"不错的衣服",
+               "buyQuantity":"2"
+               }]
+              }]
+             }
+
+            ]
+        }
+    }
+}

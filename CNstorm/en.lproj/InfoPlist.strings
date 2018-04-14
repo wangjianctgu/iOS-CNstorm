@@ -1,0 +1,282 @@
+/* Localized versions of Info.plist keys */
+
+//dg_about 关于我们
+//------- title 标题
+//------- seokeywords SEO关键词
+//------- seodescription SEO描述
+//------- body 文章主体
+
+//dg_address 用户地址簿
+//------- uid 用户id
+//------- uname 用户名
+//------- consignee 收件人
+//------- country 收件国家
+//------- city 收件城市
+//------- zip 邮编
+//------- tel 联系电话
+//------- address 地址
+//------- def 是否被用户设置为默认地址（1:是 0:否）
+
+//dg_admin 后台管理员列表
+//------- adminname 管理员账户
+//------- adminpwd 管理员密码
+//------- adminpurview 管理员被开放的管理项
+//------- lastlogin 最后登录时间
+//------- logincount 登录次数
+//dg_adminmange 后台管理项
+//------- mname 管理名称
+//------- murl 项目地址
+//------- mcode 项目编码
+//------- type 管理类别
+//dg_admin_log 管理员操作日志 （旧数据不需同步到新站，因此不做结构介绍）
+//dg_area 运送区域
+//------- name_cn 区域中文名
+//------- name_en 区域英文名
+//------- severfeepct 服务费费率
+//------- serverfee 服务费最高封顶
+//------- state 区域是否隐藏
+//dg_article 帮助中心文章
+//------- typeid 定义文章类别
+//------- title 文章标题
+//------- seokeywords SEO关键词
+//------- seodescription SEO描述
+//------- body 文章主体
+//dg_cart 购物车
+//------- anonymous 游客缓存代码
+//------- uid 用户id (游客为0）
+//------- uname 用户名（游客为空值）
+//------- goodsurl 商品链接
+//------- goodsname 商品名称
+//------- goodsprice 商品价格
+//------- sendprice 国内运费
+//------- goodsnum 购买数量
+//------- goodsimg 商品图片
+//------- goodssize 商品尺码
+//------- goodscolor 商品颜色
+//------- goodsseller 卖家
+//------- sellerurl 卖家链接
+//------- goodssite 商品来源商城
+//------- siteurl 商城链接
+//------- goodsremark 商品购买备注
+//------- addtime 购买时间
+//dg_coupon 优惠劵
+//------- sn 优惠劵代码
+//------- uid 用户id
+//------- uname 用户名
+//------- getway 获取方式
+//------- endtime 有效期结束时间
+//------- addtime 优惠券获得时间
+//------- money 优惠券面值
+//------- sellmoney 销售价格
+//dg_delivery 邮寄方式
+//------- areaid 区域id
+//------- areaname 区域名称
+//------- deliveryname 快递公司名字
+//------- delivery_time 快递时效
+//------- queryurl 快递查询地址
+//------- carrierLogo 快递公司logo
+//------- carrierDesc 快递公司简介
+//------- first_weight 首重标准
+//------- continue_weight 续重标准
+//------- fitst_fee 首重价格
+//------- continue_fee 续重价格
+//------- customs_fee 报关收费
+//------- state 是否隐藏该快递方式
+//dg_emailtpl 邮件模板（如商品缺货通知等邮件通知用模板）
+//------- name 模板标题
+//------- content 邮件内容
+//dg_favorite 收藏夹
+//------- uid 用户id
+//------- uname 用户名
+//------- goodsurl 商品链接
+//------- goodsname 商品名称
+//------- goodsprice 商品价格
+//------- goodsimg 商品图片
+//------- goodsseller 卖家
+//------- sellerurl 卖家链接
+//------- goodssite 商品来源商城
+//------- siteurl 商城链接
+//------- addtime 收藏时间
+//dg_goods 商城商品
+//------- category 商品类别
+//------- gtypeid 商品分类
+//------- usertype 用户等级（预留用户分享用，旧站未被操作，可不导）
+//------- uname 商品推荐人，操作用户（预留用户分享用，旧站未被操作，可不导）
+//------- goodsurl 商品链接
+//------- goodsname 商品名称
+//------- goodsprice 商品价格
+//------- goodsseller 卖家
+//------- goodsimg 商品图片
+//------- sellerurl 卖家链接
+//------- shopname 商品来源商城
+//------- views 浏览数（旧站未被操作，可不导）
+//------- buynum 购买数量（旧站未被操作，可不导）
+//------- why 导购语，为何购买（旧站未被操作，可不导）
+//------- about 商品详细介绍（旧站未被操作，可不导）
+//------- Audit 前台是否显示（旧站未被操作，可不导）
+//------- addtime 添加时间
+//dg_gtype 商城分类
+//------- typeid 分类id
+//------- typename 分类名称
+//------- node 节点（子分类节点为主分类的typeid）
+//------- seotitle SEO标题
+//------- seokeywords SEO关键词
+//------- seodescription SEO描述
+//dg_guestbook （运费申诉/用户意见反馈）
+//------- uid 用户id
+//------- uname 用户名
+//------- addtime 提交时间
+//------- msg 反馈信息
+//------- reply 客服回复
+//dg_news (网站公告)
+//------- title 公告标题
+//------- seokeywords SEO关键词
+//------- seodescription SEO描述
+//------- body 公告文章主体
+//------- addtime 发布时间
+//dg_order 订单（所有订单）
+//------- uid 用户id
+//------- uname 用户名
+//------- goodsurl 商品链接
+//------- goodsname 商品名称
+//------- goodsprice 商品价格
+//------- sendprice 国内运费
+//------- goodsnum 购买数量
+//------- goodsimg 商品图片
+//------- goodssize 商品尺码
+//------- goodscolor 商品颜色
+//------- goodsseller 卖家
+//------- sellerurl 卖家链接
+//------- goodssite 商品来源商城
+//------- siteurl 商城链接
+//------- expressno 快递号
+//------- goodsremark 商品购买备注
+//------- addtime 购买时间
+//------- uptime 订单状态更新时间
+//------- state 订单状态
+//dg_payid 订单采购员id
+//------- payid 采购员id
+//dg_pm 站内信
+//------- fromuid 发信人id
+//------- fromuname 发信人账户名
+//------- touid 收信人id
+//------- touname 收信人账户名
+//------- type 站内信类别
+//------- subject 站内信标题
+//------- sendtime 发送时间
+//------- hasview 已被收信人阅读（1:是 0:否）
+//------- isadmin 收信人类别（0:网站客服 1:其它用户）
+//------- message 站内信内容
+//dg_rechargerecord 充值记录
+//------- rid 记录id
+//------- uid 用户id
+//------- uname 用户名
+//------- sn 充值编号
+//------- amount 充值金额
+//------- currency 币种
+//------- money 换算过的额度
+//------- paytype 充值方式（0转账1支付宝支付2paypal充值3psi充值4其他）
+//------- payname 支付方式
+//------- addtime 付款发生时间
+//------- successtime 付款完成时间
+//------- remark 操作备注
+//------- state 付款判断（1:失败 2:成功）
+//dg_record 消费记录
+//------- rid 记录id
+//------- uid 用户id
+//------- uname 用户名
+//------- type 消费类别（1:支出 2:收入）
+//------- action 消费行为(1:购买商品 2:国内运费 3:国际运费 5:价格调整 9:账户充值）
+//------- money 消费金额（-XXX:支出 XXX:收入）
+//------- accountmoney 消费后账户余额
+//------- remark 消费详情
+//------- addtime 发生时间
+//dg_refund 退款记录
+//------- rid 记录id
+//------- uid 用户id
+//------- uname 用户名
+//------- money 申退金额
+//------- rechargetime 当时充值时间
+//------- rechargemoney 当时充值金额
+//------- rechargesn 充值编号
+//------- remark 用户退款理由
+//------- refundmark 管理员处理意见
+//------- addtime 退款发起时间
+//------- state 处理状态（1:已处理 2:待处理）
+
+//dg_scorerecord 积分记录
+//------- sid 记录id
+//------- uid 用户id
+//------- uname 用户名
+//------- remark 积分变更详情
+//------- score 获得/减少积分额
+//------- totalscore 用户总积分
+//------- type 类别（1:获得 2:消费支出）
+//------- addtime 发生时间
+
+//dg_sendorder 运单
+//------- sid 运单id
+//------- uid 用户id
+//------- uname 用户名
+//------- email 用户邮箱
+//------- couponid 运单使用的优惠券id
+//------- freight 运费
+//------- serverfee 服务收费
+//------- customsfee 报关收费
+//------- totalfee 总费用
+//------- countmoney 邮寄订单总价
+//------- countweight 运单总重量
+//------- consignee 收件人
+//------- country 邮寄国家
+//------- city 邮寄城市
+//------- zip 邮编
+//------- tel 联系电话
+//------- address 地址
+//------- remark 用户备注
+//------- deliveryname 邮寄方式
+//------- areaname 邮寄区域名称
+//------- addtime 运单提交时间
+//------- uptime 状态更新时间
+//------- comment 运单确认收货后评价内容
+//------- commenttime 评价时间
+//------- reply 客服回复
+//------- showcomment 是否在前台显示该评论
+//------- state 运单状态（1:已付款 2:已邮寄 3:已确认收货 4:无效运单 5:准备邮寄 7:待补交运费）
+
+//dg_smtpaccount 发件邮箱设置
+//------- smtp_server 邮件服务器地址
+//------- smtp_port 邮件服务器端口号
+//------- smtp_email 邮件地址
+//------- smtp_account 邮件服务器账户名
+//------- smtp_password 邮件服务密码
+//------- smtp_name 发信人名字
+//------- reply_address 回复地址
+//------- smtp_auth 是否smtp验证
+//------- smtp_ssl 是否是ssl模式
+//------- state 状态（1正常0禁用）
+
+//dg_users 用户
+//------- uid 用户id
+//------- uname 用户名
+//------- password 密码
+//------- email 邮箱
+//------- tname 微博昵称
+//------- utype 会员等级
+//------- sex 性别
+//------- tel 电话
+//------- zip 邮编
+//------- address 地址
+//------- country 国家
+//------- city 城市
+//------- face 头像
+//------- scores 积分
+//------- money 账户余额
+//------- regip 注册ip
+//------- regtime 注册时间
+//------- loginip 登陆ip
+//------- logintime 登陆时间
+//------- activekey 账户激活码
+//------- state 激活状态（1:激活 0:未激活）
+//------- from 用户来源 （网站注册/微博登陆/QQ登陆）
+//------- qiandao 签到时间（判断本日是否签到）
+//------- question 答题时间（判断本日是否答题）

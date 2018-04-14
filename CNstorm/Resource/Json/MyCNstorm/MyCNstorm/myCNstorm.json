@@ -1,0 +1,37 @@
+ [
+  [
+   {"rowImageName":"allOrder",
+   "rowSelectedImageName":"allOrder_selected",
+   "rowName":"全部订单",
+   "rowDetail":""
+   },
+   
+   {"rowImageName":"way",
+   "rowSelectedImageName":"way_selected",
+   "rowName":"国际运单",
+   "rowDetail":""
+   }
+  ],
+  
+  [
+   {"rowImageName":"collection",
+   "rowSelectedImageName":"collection_selected",
+   "rowName":"我的收藏",
+   "rowDetail":""
+   },
+   
+   {"rowImageName":"coupons",
+   "rowSelectedImageName":"coupons_selected",
+   "rowName":"我的优惠券",
+   "rowDetail":""
+   }
+  ],
+  
+  [
+    {"rowImageName":"rmbAccount",
+    "rowSelectedImageName":"rmbAccount_selected",
+    "rowName":"账户充值",
+    "rowDetail":""
+    }
+  ]
+]

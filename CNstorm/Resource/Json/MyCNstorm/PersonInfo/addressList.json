@@ -1,0 +1,29 @@
+{"data":
+    {
+        "resultCode":"1",
+        "result":
+        {
+           "addressList":
+            [
+               {"recevicer":"mary",
+                "telePhone":"0755-73726732",
+                "country":"England",
+                "province":"sugelan",
+                "city":"londan",
+                "addressDetail":"Abu Aisheh Saudi Aramco 593 Marjan Circle Dhahran 31311 Saudi Arabia",
+                "mailCode":"518101",
+                "isDefault":"1"
+              },
+              {"recevicer":"mary",
+               "telePhone":"0755-73726732",
+               "country":"USA",
+               "province":"Newyork",
+               "city":"londan",
+               "addressDetail":"asdf fdas dsfa sadf  dsaffs   sadf  sadsf  Saudi Arabia",
+               "mailCode":"518101",
+               "isDefault":"0"
+             }
+            ]
+        }
+    }
+}

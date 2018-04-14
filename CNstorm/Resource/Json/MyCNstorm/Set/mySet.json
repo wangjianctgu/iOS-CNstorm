@@ -1,0 +1,35 @@
+ [
+  [
+   {"rowImageName":"messagePush",
+   "rowSelectedImageName":"messagePush_selected",
+   "rowName":"消息提醒",
+   "rowDetail":""
+   },
+   
+   {"rowImageName":"clear",
+   "rowSelectedImageName":"clear_selected",
+   "rowName":"清除缓存",
+   "rowDetail":""
+   }
+  ],
+  
+  [
+   {"rowImageName":"feedback",
+   "rowSelectedImageName":"feedback_selected",
+   "rowName":"意见反馈",
+   "rowDetail":""
+   },
+
+   {"rowImageName":"checkUpdate",
+   "rowSelectedImageName":"checkUpdate_selected",
+   "rowName":"检查更新",
+   "rowDetail":"点击更新最新版本"
+   }
+   ,
+   {"rowImageName":"aboutMe",
+   "rowSelectedImageName":"aboutMe_selected",
+   "rowName":"关于我们",
+   "rowDetail":""
+   }
+  ]
+]

@@ -1,0 +1,35 @@
+ [
+  [
+   {"rowImageName":"rmbAccount",
+   "rowSelectedImageName":"rmbAccount_selected",
+   "rowName":"人民币账户",
+   "rowDetail":""
+   },
+   
+   {"rowImageName":"consumptionRecords",
+   "rowSelectedImageName":"consumptionRecords_selected",
+   "rowName":"消费记录",
+   "rowDetail":""
+   }
+  ]
+,
+  [
+   {"rowImageName":"nickName",
+   "rowSelectedImageName":"nickName_selected",
+   "rowName":"张起灵",
+   "rowDetail":"修改"
+   },
+
+   {"rowImageName":"updatePsw",
+   "rowSelectedImageName":"updatePsw_selected",
+   "rowName":"修改密码",
+   "rowDetail":""
+   }
+   ,
+   {"rowImageName":"receviceAddress",
+   "rowSelectedImageName":"receviceAddress_selected",
+   "rowName":"收货地址管理",
+   "rowDetail":""
+   }
+  ]
+]

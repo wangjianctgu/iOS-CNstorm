@@ -1,0 +1,12 @@
+{"data":
+    {
+        "resultCode":"1",
+        "result":
+        {
+            "couponchooseList":
+            
+            [{"cid":"1","sn":"20100813101717512","uid":"1","uname":"admin","getway":"1","endtime":"1284259008","addtime":"1281665837","money":"5","sellmoney":"0","state":"1"}, {"cid":"2","sn":"20100813103952866","uid":"1","uname":"admin","getway":"1","endtime":"1284259192","addtime":"1281667192","money":"10","sellmoney":"0","state":"1"}, {"cid":"3","sn":"20100813103954190","uid":"1","uname":"admin","getway":"1","endtime":"1284259194","addtime":"1281667194","money":"10","sellmoney":"0","state":"1"}, {"cid":"4","sn":"15013827303","uid":"1","uname":"vanb","getway":"2","endtime":"1391648172","addtime":"1281667201","money":"15","sellmoney":"0","state":"1"},{"cid":"5","sn":"20100813104001545","uid":"3","uname":"lss","getway":"2","endtime":"1285209810","addtime":"1281667207","money":"20","sellmoney":"0","state":"1"}, {"cid":"6","sn":"20100824170632734","uid":"3","uname":"lss","getway":"1","endtime":"1285232792","addtime":"1282640792","money":"5","sellmoney":"0","state":"1"}, {"cid":"7","sn":"20100824170632186","uid":"3","uname":"lss","getway":"1","endtime":"1285232792","addtime":"1282640792","money":"5","sellmoney":"0","state":"1"}, {"cid":"8","sn":"20100824170632182","uid":"3","uname":"lss","getway":"1","endtime":"1285232792","addtime":"1282640792","money":"5","sellmoney":"3","state":"1"}, {"cid":"9","sn":"20100824170905675","uid":"3","uname":"lss","getway":"1","endtime":"1285232945","addtime":"1282640945","money":"5","sellmoney":"3","state":"1"}]
+
+        }
+    }
+}

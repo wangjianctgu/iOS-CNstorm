@@ -1,0 +1,195 @@
+{"data":
+    {
+        "resultCode":"1",
+        "result":
+        {
+            "goodsCategoryList":
+            [
+              {
+                 "goodsCategoryImg" :"http://s6.mogujie.cn/pic/131122/z1v13_kqzdotsdkrbf6q2ugfjeg5sckzsew_50x50.gif",
+                 "goodsCategoryName":"潮流服饰",
+                 "goodsCategoryList2":
+                 [
+                  {
+                  "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201406/20140604143247_283.jpg",
+                  "goodsCategoryName2":"衬衫"
+                  },
+                  {
+                  "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603102558_650.jpg",
+                  "goodsCategoryName2":"裙子"
+                  },
+                  {
+                  "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603173503_754.jpg",
+                  "goodsCategoryName2":"裤子"
+                  },
+                  {
+                  "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603113128_799.jpg",
+                  "goodsCategoryName2":"内衣"
+                  }
+                 ]
+              },
+              {
+                 "goodsCategoryImg":"http://s13.mogujie.cn/pic/131122/z1v13_kqzecwc7krbfqqkugfjeg5sckzsew_50x50.gif",
+                 "goodsCategoryName":"时尚鞋子",
+                 "goodsCategoryList2":
+                 [
+                  {
+                    "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201405/20140527142923_135.jpg",
+                    "goodsCategoryName2":"高跟鞋"
+                  },
+                  {
+                     "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140422105729_588.jpg",
+                     "goodsCategoryName2":"运动鞋"
+                  },
+                  {
+                     "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140409144227_672.jpg",
+                     "goodsCategoryName2":"袜子"
+                  }
+                ]
+              },
+              {
+                 "goodsCategoryImg":"http://s7.mogujie.cn/pic/131122/z1v13_kqzgytsdkrbfc6cugfjeg5sckzsew_50x50.gif",
+                 "goodsCategoryName":"名牌包包",
+             
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201405/20140513105331_458.jpg",
+              "goodsCategoryName2":"单肩"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201405/20140529104938_601.jpg",
+              "goodsCategoryName2":"双肩"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140414174731_523.jpg",
+              "goodsCategoryName2":"手提"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201405/20140519161613_213.jpg",
+              "goodsCategoryName2":"斜挎"
+              }
+              ]
+
+              },
+              {
+                 "goodsCategoryImg":"http://s6.mogujie.cn/pic/131122/z1v13_kqzhcwczkrbegrdwgfjeg5sckzsew_50x50.gif",
+                 "goodsCategoryName":"奢华饰品",
+             
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140403120342_672.jpg",
+              "goodsCategoryName2":"项链"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140414171014_198.jpg",
+              "goodsCategoryName2":"耳环"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140424143315_926.jpg",
+              "goodsCategoryName2":"手链"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140425105351_605.jpg",
+              "goodsCategoryName2":"戒指"
+              }
+              ]
+             },
+             
+             {
+             "goodsCategoryImg" :"http://s6.mogujie.cn/pic/131122/z1v13_kqzdotsdkrbf6q2ugfjeg5sckzsew_50x50.gif",
+             "goodsCategoryName":"潮流服饰",
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201406/20140604143247_283.jpg",
+              "goodsCategoryName2":"衬衫"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603102558_650.jpg",
+              "goodsCategoryName2":"裙子"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603173503_754.jpg",
+              "goodsCategoryName2":"裤子"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201406/20140603113128_799.jpg",
+              "goodsCategoryName2":"内衣"
+              }
+              ]
+             },
+             {
+             "goodsCategoryImg":"http://s13.mogujie.cn/pic/131122/z1v13_kqzecwc7krbfqqkugfjeg5sckzsew_50x50.gif",
+             "goodsCategoryName":"时尚鞋子",
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201405/20140527142923_135.jpg",
+              "goodsCategoryName2":"高跟鞋"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140422105729_588.jpg",
+              "goodsCategoryName2":"运动鞋"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140409144227_672.jpg",
+              "goodsCategoryName2":"袜子"
+              }
+              ]
+             },
+             {
+             "goodsCategoryImg":"http://s7.mogujie.cn/pic/131122/z1v13_kqzgytsdkrbfc6cugfjeg5sckzsew_50x50.gif",
+             "goodsCategoryName":"名牌包包",
+             
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2" :"http://www.cnstorm.com/attachment/shop/201405/20140513105331_458.jpg",
+              "goodsCategoryName2":"单肩"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201405/20140529104938_601.jpg",
+              "goodsCategoryName2":"双肩"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140414174731_523.jpg",
+              "goodsCategoryName2":"手提"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201405/20140519161613_213.jpg",
+              "goodsCategoryName2":"斜挎"
+              }
+              ]
+             
+             },
+             {
+             "goodsCategoryImg":"http://s6.mogujie.cn/pic/131122/z1v13_kqzhcwczkrbegrdwgfjeg5sckzsew_50x50.gif",
+             "goodsCategoryName":"奢华饰品",
+             
+             "goodsCategoryList2":
+             [
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140403120342_672.jpg",
+              "goodsCategoryName2":"项链"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140414171014_198.jpg",
+              "goodsCategoryName2":"耳环"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140424143315_926.jpg",
+              "goodsCategoryName2":"手链"
+              },
+              {
+              "goodsCategoryImg2":"http://www.cnstorm.com/attachment/shop/201404/20140425105351_605.jpg",
+              "goodsCategoryName2":"戒指"
+              }
+              ]
+             }
+
+            ]
+        }
+    }
+}

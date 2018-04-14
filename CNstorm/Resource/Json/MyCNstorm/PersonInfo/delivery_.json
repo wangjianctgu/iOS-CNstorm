@@ -1,0 +1,130 @@
+ [
+  { "indexTitle": "常用",
+    "delivery":
+    [
+     {"deliveryname":"顺丰快递",
+      "first_weight":"8.00",
+      "continue_weight":"5.00"
+     },
+   
+     {"deliveryname":"圆通快递",
+     "first_weight":"8.00",
+     "continue_weight":"5.00"
+     },
+     
+     {"deliveryname":"申通快递",
+     "first_weight":"8.00",
+     "continue_weight":"5.00"
+     },
+     
+     {"deliveryname":"EMS",
+     "first_weight":"8.00",
+     "continue_weight":"5.00"
+     },
+     
+     {"deliveryname":"宅急送",
+     "first_weight":"8.00",
+     "continue_weight":"5.00"
+     }
+    ]
+  },
+  
+  { "indexTitle": "A",
+    "delivery":
+    [
+     {"deliveryname":"AIR",
+      "first_weight":"8.00",
+      "continue_weight":"5.00"
+     }
+    ]
+  },
+  
+  { "indexTitle": "D",
+    "delivery":
+  [
+   {"deliveryname":"东马专线",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "E",
+  "delivery":
+  [
+   {"deliveryname":"EMS",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "F",
+  "delivery":
+  [
+   {"deliveryname":"Fedex专线",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "P",
+  "delivery":
+  [
+   {"deliveryname":"普快专线",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "S",
+  "delivery":
+  [
+   {"deliveryname":"顺丰快递",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   },
+   {"deliveryname":"申通快递",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+
+   ]
+  },
+  
+  { "indexTitle": "X",
+  "delivery":
+  [
+   {"deliveryname":"新马专线",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   },
+   {"deliveryname":"西马专线",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "Y",
+  "delivery":
+  [
+   {"deliveryname":"圆通快递",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  },
+  
+  { "indexTitle": "Z",
+  "delivery":
+  [
+   {"deliveryname":"宅急送",
+   "first_weight":"8.00",
+   "continue_weight":"5.00"
+   }
+   ]
+  }
+]

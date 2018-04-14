@@ -1,0 +1,50 @@
+{"data":
+    {
+        "resultCode":"1",
+        "result":
+        {
+           "transportOrderList":
+            [
+             {
+                "orderTitle":"自己种的黄金稻米",
+                "orderRemark":"自己种的黄金稻米1袋，重60斤;腊肠12根",
+                "isCancel":"0",
+                "orderStatus":"0",
+                "receiveAddress":"广东省深圳市宝安区西乡三围航空路30号同安物流园D栋301（信恩世通代寄部）",
+                "mailCode":"518101",
+                "receiver":"王大锤",
+                "telePhone":"0755-81466633",
+                "orderNo":"D4431998726",
+                "orderDate":"2014-06-12 12:00:03"
+             },
+             
+             {
+             "orderTitle":"小孩衣服几套",
+             "orderRemark":"一件裤子，两件小棉袄，小裤衩4件，奶瓶一个",
+             "isCancel":"0",
+             "orderStatus":"1",
+             "receiveAddress":"广东省深圳市宝安区西乡三围航空路30号同安物流园D栋301（信恩世通代寄部）",
+             "mailCode":"518101",
+             "receiver":"王大锤",
+             "telePhone":"0755-81466633",
+             "orderNo":"D3199873426",
+             "orderDate":"2014-06-10 02:00:03"
+             },
+             
+             {
+             "orderTitle":"蔬菜一揽子工程",
+             "orderRemark":"绿色蔬菜10袋，豆腐乳2瓶，黄瓜若干根",
+             "isCancel":"0",
+             "orderStatus":"0",
+             "receiveAddress":"广东省深圳市宝安区西乡三围航空路30号同安物流园D栋301（信恩世通代寄部）",
+             "mailCode":"518101",
+             "receiver":"王大锤",
+             "telePhone":"0755-81466633",
+             "orderNo":"D3199873426",
+             "orderDate":"2014-06-1 10:00:03"
+             }
+
+            ]
+        }
+    }
+}

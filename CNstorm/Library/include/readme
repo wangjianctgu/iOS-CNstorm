@@ -1,0 +1,2 @@
+//合并说明
+lipo -create /Users/zhanglisheng/Desktop/CNstormPods/Debug-iphonesimulator/libPods.a /Users/zhanglisheng/Desktop/CNstormPods/Debug-iphoneos/libPods.a -output /Users/zhanglisheng/Desktop/CNstormPods/libPods.a

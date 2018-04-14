@@ -1,0 +1,882 @@
+{
+    "version" : "1.00",
+    "tables" : {
+        
+        "Customer":{
+            "colunms" : {
+                "customerid" :{
+                    "colid":1,
+                    "type":"bigint",
+                },
+                "email" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "username" :{
+                    "colid":3,
+                    "type":"varchar",
+                },
+                "tname" :{
+                    "colid":4,
+                    "type":"varchar",
+                },
+                "password" :{
+                    "colid":5,
+                    "type":"varchar",
+                },
+                "scores" :{
+                    "colid":6,
+                    "type":"bigint",
+                },
+                "money" :{
+                    "colid":7,
+                    "type":"decima",
+                }
+            },
+            "pk" : "customerid",
+            "referencetables":[
+            ]
+        },
+        
+        "DataType":{
+            "colunms" : {
+                "bigint" :{
+                    "colid":1,
+                    "type":"bigint",
+                },
+                "binary" :{
+                    "colid":2,
+                    "type":"binary",
+                },
+                "bit" :{
+                    "colid":3,
+                    "type":"bit",
+                },
+                "char" :{
+                    "colid":4,
+                    "type":"char",
+                },
+                "datetime" :{
+                    "colid":5,
+                    "type":"datetime",
+                },
+                "decima" :{
+                    "colid":6,
+                    "type":"decima",
+                },
+                "float" :{
+                    "colid":7,
+                    "type":"float",
+                },
+                "image" :{
+                    "colid":8,
+                    "type":"image",
+                },
+                "int" :{
+                    "colid":9,
+                    "type":"int",
+                },
+                "money" :{
+                    "colid":10,
+                    "type":"money",
+                },
+                "nchar" :{
+                    "colid":11,
+                    "type":"nchar",
+                },
+                "ntext" :{
+                    "colid":12,
+                    "type":"ntext",
+                },
+                "numeric" :{
+                    "colid":13,
+                    "type":"numeric",
+                },
+                "nvarchar" :{
+                    "colid":14,
+                    "type":"nvarchar",
+                },
+                "real" :{
+                    "colid":15,
+                    "type":"real",
+                },
+                "smalldatetime" :{
+                    "colid":16,
+                    "type":"smalldatetime",
+                },
+                "smallint" :{
+                    "colid":17,
+                    "type":"smallint",
+                },
+                "smallmoney" :{
+                    "colid":18,
+                    "type":"smallmoney",
+                },
+                "sql_variant" :{
+                    "colid":19,
+                    "type":"sql_variant",
+                },
+                "text" :{
+                    "colid":20,
+                    "type":"text",
+                },
+                "timestamp" :{
+                    "colid":21,
+                    "type":"timestamp",
+                },
+                "tinyint" :{
+                    "colid":22,
+                    "type":"tinyint",
+                },
+                "uniqueidentifier" :{
+                    "colid":23,
+                    "type":"uniqueidentifier",
+                },
+                "varbinary" :{
+                    "colid":24,
+                    "type":"varbinary",
+                },
+                "varchar" :{
+                    "colid":25,
+                    "type":"varchar",
+                },
+                "xml" :{
+                    "colid":26,
+                    "type":"xml",
+                },
+                "max" :{
+                    "colid":27,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "bigint",
+            "referencetables":[
+            ]
+        },
+        
+        "CategoryUpdate":{
+            "colunms" : {
+                "tablename" :{
+                    "colid":1,
+                    "type":"varchar",
+                },
+                "updatetime" :{
+                    "colid":2,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "tablename",
+            "referencetables":[
+            ]
+        },
+        
+        "Country_State":{
+            "colunms" : {
+                "csid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "name" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "continent" :{
+                    "colid":3,
+                    "type":"int",
+                },
+                "createdate" :{
+                    "colid":4,
+                    "type":"datetime",
+                },
+                "updatedate" :{
+                    "colid":5,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "csid",
+            "referencetables":[
+                               "City",
+                               ]
+        },
+        
+        "City":{
+            "colunms" : {
+                "cid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+                "csid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"Country_State"
+                },
+                "longitude" :{
+                    "colid":3,
+                    "type":"decima",
+                },
+                "latitude" :{
+                    "colid":4,
+                    "type":"decima",
+                },
+                "detail" :{
+                    "colid":5,
+                    "type":"text",
+                },
+                "pinyin" :{
+                    "colid":6,
+                    "type":"varchar",
+                },
+                "forshort" :{
+                    "colid":7,
+                    "type":"varchar",
+                },
+                "istourcity" :{
+                    "colid":8,
+                    "type":"bit",
+                },
+                "createdate" :{
+                    "colid":9,
+                    "type":"datetime",
+                },
+                "updatedate" :{
+                    "colid":10,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "cid",
+            "referencetables":[
+                               "Site",
+                               "Trip",
+                               "TravelAgencyShop",
+                               "News",
+                               ]
+        },
+        "RestaurantType":{
+            "colunms" : {
+                "rid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "name" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "createdate" :{
+                    "colid":3,
+                    "type":"datetime",
+                },
+                "updatedate" :{
+                    "colid":4,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "rid",
+            "referencetables":[
+                               "RestaurantTypeDetail",
+                               ]
+        },
+        "EquipmentType":{
+            "colunms" : {
+                "eid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "name" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "fathereid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"EquipmentType"
+                },
+                "createdate" :{
+                    "colid":4,
+                    "type":"datetime",
+                },
+                "updatedate" :{
+                    "colid":5,
+                    "type":"datetime",
+                },
+                "cid" :{
+                    "colid":7,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "eid",
+            "referencetables":[
+                               "EquipmentType",
+                               "ViewSpotEquipment",
+                               ]
+        },
+        "Restaurant":{
+            "colunms" : {
+                "rid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "price" :{
+                    "colid":2,
+                    "type":"decima",
+                },
+            },
+            "pk" : "rid",
+            "referencetables":[
+                               "RestaurantTypeDetail",
+                               ]
+        },
+        "ViewSpotType":{
+            "colunms" : {
+                "vid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "name" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "createdate" :{
+                    "colid":3,
+                    "type":"datetime",
+                },
+                "updatedate" :{
+                    "colid":4,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "vid",
+            "referencetables":[
+                               "ViewSpotTypeDetail",
+                               ]
+        },
+        "Hotel":{
+            "colunms" : {
+                "hid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "starlevel" :{
+                    "colid":2,
+                    "type":"int",
+                },
+                "minprice" :{
+                    "colid":3,
+                    "type":"decima",
+                },
+                "maxprice" :{
+                    "colid":4,
+                    "type":"decima",
+                },
+            },
+            "pk" : "hid",
+            "referencetables":[
+            ]
+        },
+        "TrafficHub":{
+            "colunms" : {
+                "tid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "type" :{
+                    "colid":2,
+                    "type":"int",
+                },
+            },
+            "pk" : "tid",
+            "referencetables":[
+            ]
+        },
+        "TripOwner":{
+            "colunms" : {
+                "oid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "type" :{
+                    "colid":2,
+                    "type":"int",
+                },
+            },
+            "pk" : "oid",
+            "referencetables":[
+                               "Users",
+                               "Trip",
+                               ]
+        },
+        "Trip":{
+            "colunms" : {
+                "tid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+                "oid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"TripOwner"
+                },
+                "detail" :{
+                    "colid":3,
+                    "type":"varchar",
+                },
+                "share" :{
+                    "colid":4,
+                    "type":"int",
+                },
+                "startcid" :{
+                    "colid":5,
+                    "type":"int",
+                    "referencedtable":"City"
+                },
+            },
+            "pk" : "tid",
+            "referencetables":[
+                               "TripStep",
+                               ]
+        },
+        "TripStep":{
+            "colunms" : {
+                "sid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "tid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"Trip"
+                },
+                "lastsid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"TripStep"
+                },
+                "vehicle" :{
+                    "colid":4,
+                    "type":"int",
+                },
+                "begintime" :{
+                    "colid":5,
+                    "type":"datetime",
+                },
+                "siteid" :{
+                    "colid":6,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "arrivaltime" :{
+                    "colid":7,
+                    "type":"datetime",
+                },
+                "detail" :{
+                    "colid":8,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "sid",
+            "referencetables":[
+                               "TripStep",
+                               ]
+        },
+        "News":{
+            "colunms" : {
+                "nid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+                "cid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"City"
+                },
+                "contents" :{
+                    "colid":3,
+                    "type":"text",
+                },
+                "islocal" :{
+                    "colid":4,
+                    "type":"bit",
+                },
+                "istop" :{
+                    "colid":5,
+                    "type":"bit",
+                },
+                "toppic" :{
+                    "colid":6,
+                    "type":"varchar",
+                },
+                "createdate" :{
+                    "colid":7,
+                    "type":"datetime",
+                },
+                "exprirydate" :{
+                    "colid":8,
+                    "type":"datetime",
+                },
+            },
+            "pk" : "nid",
+            "referencetables":[
+                               "NewsRelevant",
+                               ]
+        },
+        "TravelAgency":{
+            "colunms" : {
+                "tid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "detail" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "tid",
+            "referencetables":[
+                               "TravelAgencyShop",
+                               ]
+        },
+        "NewsRelevant":{
+            "colunms" : {
+                "nrid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "nid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"News"
+                },
+                "cid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+            },
+            "pk" : "nrid",
+            "referencetables":[
+            ]
+        },
+        "Pic":{
+            "colunms" : {
+                "pid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "cid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+                "detail" :{
+                    "colid":3,
+                    "type":"varchar",
+                },
+                "path" :{
+                    "colid":4,
+                    "type":"text",
+                },
+            },
+            "pk" : "pid",
+            "referencetables":[
+            ]
+        },
+        "RestaurantTypeDetail":{
+            "colunms" : {
+                "rtdid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "rid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"Restaurant"
+                },
+                "rtid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"RestaurantType"
+                },
+            },
+            "pk" : "rtdid",
+            "referencetables":[
+            ]
+        },
+        "SiteProject":{
+            "colunms" : {
+                "spid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "sid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "name" :{
+                    "colid":3,
+                    "type":"varchar",
+                },
+                "price" :{
+                    "colid":4,
+                    "type":"decima",
+                },
+                "picpath" :{
+                    "colid":5,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "spid",
+            "referencetables":[
+            ]
+        },
+        "TravelAgencyShop":{
+            "colunms" : {
+                "tasid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "tid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"TravelAgency"
+                },
+                "cid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"City"
+                },
+                "address" :{
+                    "colid":4,
+                    "type":"varchar",
+                },
+                "telephone" :{
+                    "colid":5,
+                    "type":"varbinary",
+                },
+                "longitude" :{
+                    "colid":6,
+                    "type":"float",
+                },
+                "latitude" :{
+                    "colid":7,
+                    "type":"float",
+                },
+            },
+            "pk" : "tasid",
+            "referencetables":[
+            ]
+        },
+        "ViewSpotEquipment":{
+            "colunms" : {
+                "veid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "vid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"ViewSpot"
+                },
+                "etid" :{
+                    "colid":3,
+                    "type":"int",
+                    "referencedtable":"EquipmentType"
+                },
+            },
+            "pk" : "veid",
+            "referencetables":[
+            ]
+        },
+        "ViewSpotTypeDetail":{
+            "colunms" : {
+                "vtdid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"ViewSpotType"
+                },
+                "vid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"ViewSpot"
+                },
+                "vtid" :{
+                    "colid":3,
+                    "type":"int",
+                },
+            },
+            "pk" : "vtdid",
+            "referencetables":[
+            ]
+        },
+        "ViewSpot":{
+            "colunms" : {
+                "vid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Site"
+                },
+                "price" :{
+                    "colid":2,
+                    "type":"decima",
+                },
+            },
+            "pk" : "vid",
+            "referencetables":[
+                               "ViewSpotEquipment",
+                               "ViewSpotTypeDetail",
+                               ]
+        },
+        "Users":{
+            "colunms" : {
+                "uid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"TripOwner"
+                },
+                "name" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "password" :{
+                    "colid":3,
+                    "type":"varchar",
+                },
+                "male" :{
+                    "colid":4,
+                    "type":"bit",
+                },
+                "city" :{
+                    "colid":5,
+                    "type":"nchar",
+                },
+                "head" :{
+                    "colid":6,
+                    "type":"varchar",
+                },
+                "qq" :{
+                    "colid":7,
+                    "type":"varchar",
+                },
+                "email" :{
+                    "colid":8,
+                    "type":"varchar",
+                },
+                "secrecy" :{
+                    "colid":9,
+                    "type":"bit",
+                },
+            },
+            "pk" : "uid",
+            "referencetables":[
+            ]
+        },
+        "Site":{
+            "colunms" : {
+                "sid" :{
+                    "colid":1,
+                    "type":"int",
+                    "referencedtable":"Collectable"
+                },
+                "cid" :{
+                    "colid":2,
+                    "type":"int",
+                    "referencedtable":"City"
+                },
+                "longitude" :{
+                    "colid":3,
+                    "type":"float",
+                },
+                "latitude" :{
+                    "colid":4,
+                    "type":"float",
+                },
+                "type" :{
+                    "colid":5,
+                    "type":"int",
+                },
+                "detail" :{
+                    "colid":6,
+                    "type":"varchar",
+                },
+                "address" :{
+                    "colid":7,
+                    "type":"varchar",
+                },
+                "telephone" :{
+                    "colid":8,
+                    "type":"varchar",
+                },
+                "url" :{
+                    "colid":9,
+                    "type":"varchar",
+                },
+            },
+            "pk" : "sid",
+            "referencetables":[
+                               "Restaurant",
+                               "Hotel",
+                               "TrafficHub",
+                               "TripStep",
+                               "SiteProject",
+                               "ViewSpot",
+                               ]
+        },
+        "sysdiagrams":{
+            "colunms" : {
+                "name" :{
+                    "colid":1,
+                    "type":"nvarchar",
+                },
+                "principal_id" :{
+                    "colid":2,
+                    "type":"int",
+                },
+                "diagram_id" :{
+                    "colid":3,
+                    "type":"int",
+                },
+                "version" :{
+                    "colid":4,
+                    "type":"int",
+                },
+                "definition" :{
+                    "colid":5,
+                    "type":"varbinary",
+                },
+            },
+            "pk" : "name",
+            "referencetables":[
+            ]
+        },
+        "Collectable":{
+            "colunms" : {
+                "cid" :{
+                    "colid":1,
+                    "type":"int",
+                },
+                "title" :{
+                    "colid":2,
+                    "type":"varchar",
+                },
+                "type" :{
+                    "colid":3,
+                    "type":"int",
+                },
+            },
+            "pk" : "cid",
+            "referencetables":[
+                               "Site",
+                               "Trip",
+                               "City",
+                               "News",
+                               "NewsRelevant",
+                               "Pic",
+                               ]
+        },
+    }
+}
